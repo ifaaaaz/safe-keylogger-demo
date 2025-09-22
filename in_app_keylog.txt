@@ -1,0 +1,3 @@
+# SANITIZED DEMO: in-app keystrokes (only example)
+2025-09-22T00:54:41Z	this is a test 123
+2025-09-22T00:55:02Z	another line

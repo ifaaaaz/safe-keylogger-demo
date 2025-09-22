@@ -1,0 +1,2 @@
+# SANITIZED DEMO: harvest_simulation.txt (fake data removed)
+# Original demo used fake values: username: alice, password: hunter2
