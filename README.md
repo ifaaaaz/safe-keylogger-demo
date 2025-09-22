@@ -37,10 +37,11 @@ This repository demonstrates a **consent-based in-app keylogger** and a **benign
 source venv/bin/activate
 
 
-2. **Install dependencies**
+## 2. Install dependencies
 ```bash
 pip install --upgrade pip
 pip install flask requests
+```
 
 3. **Start the local receiver (Terminal 1)**
 ```bash
