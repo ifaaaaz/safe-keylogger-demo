@@ -37,35 +37,29 @@ This repository demonstrates a **consent-based in-app keylogger** and a **benign
 source venv/bin/activate
 
 
-## 2. Install dependencies
-
+2. **Install dependencies**
 ```bash
 pip install --upgrade pip
 pip install flask requests
 
-
-
-## 2. Start the local receiver in one terminal
-
+3. **Start the local receiver (Terminal 1)**
 ```bash
 python local_receiver.py
 
-
-## 3. In another terminal, run the benign detection demo
-
+4. **Run the benign detection demo (Terminal 2)**
 ```bash
 python benign_detection_demo.py
 
-
-## 4. In a third terminal (requires GUI/X session), run the in-app GUI logger
-
+5. **Run the GUI in-app logger (Terminal 3 — requires GUI/X session)**
 ```bash
 python safe_in_app_logger.py
+
+6. **Use the in-app GUI logger**  
+Click **Start Logging (Consent)**, type some test text, then click **Stop Logging**.
 
 ## Ethics & Safety
 
 - All work is **educational and local only**.
-- The GUI logger only records keys typed inside its own window after **explicit user consent**.
 - No global/system keylogging or unauthorized data collection is included.
 - Testing with real credentials or third-party systems is strictly prohibited without consent.
 
