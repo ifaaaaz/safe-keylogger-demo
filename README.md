@@ -31,7 +31,7 @@ This repository demonstrates a **consent-based in-app keylogger** and a **benign
 - The in-app logger only records keys typed inside its own window after explicit consent.
 - All logged data is sanitized for demonstration purposes.
 
-**Activate the virtual environment:**
+1. **Activate the virtual environment:**
 
 ```bash
 source venv/bin/activate
